@@ -239,8 +239,8 @@ header h1 {
 
 
 
-.cd-timeline-img.cd-orange {
-	background: #F7A24A;
+.cd-timeline-img.cd-green {
+	background-color: #BED85C;
 }
 
 @media only screen and (min-width: 1170px) {

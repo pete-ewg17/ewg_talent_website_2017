@@ -13,6 +13,7 @@ h4,
 h5,
 h6 {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
 }
 
 p {
@@ -24,7 +25,7 @@ p {
 }
 
 h3 {
-	font-weight: 300;
+	font-weight: 500;
 	color: #444;
 }
 
@@ -37,7 +38,7 @@ content {
 
 .btn-primary,
 .btn-primary:active {
-	background-color: #B1D41C;
+	background-color: #BED85C;
 	border-color: #555;
 	color: #555;
 	margin: 1.3em 0;
@@ -51,7 +52,7 @@ content {
 .btn-outline:focus {
 	position: relative;
 	top: 0.5rem;
-	background-color: #B1D41C;
+	background-color: #BED85C;
 	color: #fff;
 	border: none;
 	padding: 0.8em 1.2em 0.8em 1.2em;
@@ -61,13 +62,13 @@ content {
 }
 
 .btn-outline:hover {
-	background-color: #9DC300;
+	background-color: #dfff5c;
 	border: none;
-    color: #fff;
+    color: #555;
 }
 
 .btn-form {
-    background-color: #fff;
+    background-color: #dfff5c;
     border-color: #444;
     color: #444;
     margin: 1.3em 0;
@@ -324,17 +325,50 @@ content {
 	height: auto;
 }
 
+
+ /*================
+
+     CAROUSEL Styles
+
+    ================*/
+
+    ol.carousel-indicators {
+        bottom: -4.5em;
+    }
+
+    .quotes {
+        padding: 1.5em 0 6.5em 0;
+    }
+
+    .carousel-inner cite {
+        font-style: normal;
+    }
+
+    .carousel, 
+    .slide {
+        margin: 0 1.2em;
+    }
+
+
+
 /*BLOCK STYLES*/
 
-.content-section-b {
-	padding: 2.5em 0 0 0;
-	background-color: #E6E6E6;
-    background: url("../assets/images/ewg_academy_header.jpg") center center no-repeat;
-    background-size: 20vh;
-}
+ .content-section-b {
+   padding: 2.5em 0 0.1em 0;
+   background: #cdeb8e;
+   /* Old browsers */
+   background: -webkit-linear-gradient(#cbdea2 0%, #80a03a 100%);
+   background: -o-linear-gradient(#cbdea2 0%, #80a03a 100%);
+   background: linear-gradient(#cbdea2 0%, #80a03a 100%);
+   /* FF3.6-15 */
+   /* Chrome10-25,Safari5.1-6 */
+   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956', GradientType=0);
+   /* IE6-9 */
+ }
 
 .content-section-c {
-    background-color: #525252;
+    background-color: #BED85C;
     padding: 5em 0;
 }
 
@@ -358,13 +392,6 @@ content {
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 	position: relative;
 	top: 2.2em;
-}
-
-.section-heading {
-	margin-top: 2em;
-	margin-bottom: 2em;
-	font-weight: 600;
-	color: #fff;
 }
 
 @media(max-width:767px) {
@@ -426,7 +453,7 @@ content {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	font-weight: 600;
-	color: #fff;
+	color: #555;
 }
 
 
@@ -528,23 +555,7 @@ ol.carousel-indicators {
 
 .carousel-inner cite {
 	font-style: normal;
-}
-
-.carousel,
-.slide {
-	margin: 0 1.2em;
-}
-
-ol.carousel-indicators {
-	bottom: -4.5em;
-}
-
-.quotes {
-	padding: 1.5em 0 6.5em 0;
-}
-
-.carousel-inner cite {
-	font-style: normal;
+    color: #555;
 }
 
 .carousel,
@@ -568,7 +579,7 @@ ol.carousel-indicators {
 }
 
 .counter-item i {
-	color: #B3D144;
+	color: darkolivegreen;
 	font-size: 3.75em;
 }
 
