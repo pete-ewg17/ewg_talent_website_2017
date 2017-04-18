@@ -18,7 +18,7 @@ h6 {
 
 p {
 	font-size: 1.5em;
-	line-height: 1.5;
+	line-height: 1.6;
 	font-weight: 300;
 	color: #444;
 	letter-spacing: 0.1rem;
@@ -32,6 +32,10 @@ h3 {
 cite,
 content {
 	color: #fff;
+}
+
+.shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 
@@ -53,11 +57,11 @@ content {
 	position: relative;
 	top: 0.5rem;
 	background-color: #BED85C;
-	color: #fff;
+	color: #555;
 	border: none;
 	padding: 0.8em 1.2em 0.8em 1.2em;
 	font-size: 1.3em;
-	font-weight: 300;
+	font-weight: 500;
     box-shadow: 1px 2px 1px rgba(0,0,0,0.7);
 }
 
@@ -90,7 +94,7 @@ content {
 	color: #0082c2;
 	position: relative;
 	z-index: 10;
-	top: 9.5em;
+	top: 3em;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -246,7 +250,7 @@ content {
 	color: #f8f8f8;
 	background: url("../assets/talent_header.jpg") no-repeat center center;
 	background-size: cover;
-	min-height: 70vh;
+	min-height: 50vh;
 }
 
 .intro-message {
@@ -372,9 +376,20 @@ content {
     padding: 5em 0;
 }
 
+.portfolio-text h3 {
+  margin: 1.2em 0 1.2em 0;
+  font-size: 2em;
+}
+
+.portfolio-item {
+  margin-bottom: 1.5em;
+}
+
 .path {
   position: relative;
   top: -1.5em;
+  margin: auto;
+  float: none;
 }
 
 .content-section-e {
