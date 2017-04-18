@@ -147,11 +147,23 @@ $(document).ready(function () {
 $(".btn").click(function() {
 	if($(this).hasClass('selected')) {
   	$(this).removeClass('selected');
+    if(!$("#next").hasClass('disabled')) {
+    	$("#next").addClass('disabled');
+    }
   } else {
   	$(".btn").removeClass('selected');
     var selected = $(this).data('ref');
     $(this).addClass('selected');
     $("#answer").html(selected);
+    if($(".selected").length > 0) {
+    	$("#next").removeClass('disabled');
+    } else {
+    	$("#next").addClass('disabled');
+    }
   }
+});
+
+$("body").on('click','.disabled',function(e) {
+	 e.preventDefault();
 });
 
