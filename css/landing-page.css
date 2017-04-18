@@ -353,13 +353,21 @@ content {
         margin: 0 1.2em;
     }
 
+    .carousel-indicators li {
+      border: 1px solid #BED85C;
+}
+
+.carousel-indicators .active {
+    background-color: #BED85C;
+}
+
 
 
 /*BLOCK STYLES*/
 
  .content-section-b {
    padding: 2.5em 0 0.1em 0;
-   background-color: #b8ce89;
+   background-color: #fff;
  }
 
 .content-section-c {
