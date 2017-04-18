@@ -139,3 +139,19 @@ $(document).ready(function () {
         }]
 	});
 });
+
+/*===========
+  GET STARTED 
+=============*/
+
+$(".btn").click(function() {
+	if($(this).hasClass('selected')) {
+  	$(this).removeClass('selected');
+  } else {
+  	$(".btn").removeClass('selected');
+    var selected = $(this).data('ref');
+    $(this).addClass('selected');
+    $("#answer").html(selected);
+  }
+});
+

@@ -931,3 +931,45 @@ select {
 .slick-arrow.slick-hidden {
 	display: none;
 }
+
+/*GET STARTED STYLES */
+
+.content-section-g {
+	padding: 6.8em 0 1.2em 0;
+	background-color: #efefef;
+}
+
+.portfolio-item p {
+  margin-top: .5em;
+}
+
+ /*.getStarted {
+  cursor:pointer;
+  transition: all 200ms linear;
+}
+*/
+.btn:hover {
+  background-color:#dfff5c;
+  color:#fff;
+}
+
+.selected {
+  background-color:#BED85C;
+  color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
