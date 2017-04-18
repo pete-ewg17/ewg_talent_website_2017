@@ -16,6 +16,18 @@ h6 {
   
 }
 
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+  background-color: #efefef;
+}
+
+
 p {
 	font-size: 1.5em;
 	line-height: 1.6;
@@ -443,7 +455,7 @@ content {
 
 .content-section-d {
 	padding: 5.8em 0 5.3em 0;
-	background-color: #eee;
+	background-color: #efefef;
 }
 
 .content-section-d h2 {
@@ -648,7 +660,7 @@ footer {
 	width: 100%;
 	background: url("../assets/images/footer-3.jpg") no-repeat center center;
 	background-size: cover;
-	background-position: center;
+	background-position: fixed;
 }
 
 a {
