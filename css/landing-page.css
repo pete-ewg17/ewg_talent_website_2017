@@ -442,7 +442,7 @@ content {
 }
 
 .content-section-d {
-	padding: 1.8em 0 5.3em 0;
+	padding: 5.8em 0 5.3em 0;
 	background-color: #eee;
 }
 
@@ -637,18 +637,18 @@ ol.carousel-indicators {
 }
 
 /*================
-     Footer Styles
-    ================*/
+   Footer Styles
+================*/
 
 footer {
 	padding: 1.9em 0;
 }
 
 .footer-img {
-	max-width: 100%;
+	width: 100%;
 	background: url("../assets/images/footer-3.jpg") no-repeat center center;
 	background-size: cover;
-	background-position: fixed;
+	background-position: center;
 }
 
 a {
