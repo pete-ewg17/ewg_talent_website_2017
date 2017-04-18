@@ -359,20 +359,11 @@ content {
 
  .content-section-b {
    padding: 2.5em 0 0.1em 0;
-   background: #cdeb8e;
-   /* Old browsers */
-   background: -webkit-linear-gradient(#cbdea2 0%, #80a03a 100%);
-   background: -o-linear-gradient(#cbdea2 0%, #80a03a 100%);
-   background: linear-gradient(#cbdea2 0%, #80a03a 100%);
-   /* FF3.6-15 */
-   /* Chrome10-25,Safari5.1-6 */
-   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956', GradientType=0);
-   /* IE6-9 */
+   background-color: #b8ce89;
  }
 
 .content-section-c {
-    background-color: #BED85C;
+    background-color: #cdeb8e;
     padding: 5em 0;
 }
 
@@ -580,21 +571,21 @@ ol.carousel-indicators {
 
 /*================
      STATS Styles
-    ================*/
+================*/
 
 .stats {
 	padding-top: 7.5em;
 	padding-bottom: 7.5em;
-    color: #e4e4e4;
+    color: #555;
 }
 
 .stats-header {
   padding: 0 0 3em 0;
-  color: #e4e4e4;
+  color: #555;
 }
 
 .counter-item i {
-	color: darkolivegreen;
+	color: #738C2C;
 	font-size: 3.75em;
 }
 
@@ -663,15 +654,6 @@ p.copyright {
 
 .footer-logo {
 	height: 2.8em;
-}
-
-.content-section-c h2 {
-	color: #e4e4e4;
-	font-weight: 700;
-}
-
-.content-section-c p {
-	color: #e4e4e4;
 }
 
 select {
