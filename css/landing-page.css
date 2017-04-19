@@ -54,7 +54,7 @@ content {
 
 .btn-primary,
 .btn-primary:active {
-	background-color: #BED85C;
+	background-color: #ffc107;
 	border-color: #555;
 	color: #555;
 	margin: 1.3em 0;
@@ -68,7 +68,7 @@ content {
 .btn-outline:focus {
 	position: relative;
 	top: 0.5rem;
-	background-color: #BED85C;
+	background-color: #ffc107;
 	color: #555;
 	border: none;
 	padding: 0.8em 1.2em 0.8em 1.2em;
@@ -78,13 +78,13 @@ content {
 }
 
 .btn-outline:hover {
-	background-color: #dfff5c;
+	background-color: #B3D144;
 	border: none;
     color: #555;
 }
 
 .btn-form {
-    background-color: #dfff5c;
+    background-color: #B3D144;
     border-color: #444;
     color: #444;
     margin: 1.3em 0;
@@ -605,7 +605,7 @@ ol.carousel-indicators {
 }
 
 .counter-item i {
-	color: #738C2C;
+	color: #7C961A;
 	font-size: 3.75em;
 }
 
@@ -949,13 +949,18 @@ select {
 }
 */
 .btn:hover {
-  background-color:#dfff5c;
-  color:#fff;
+  background-color:#ffa000;
+  color:#555;
 }
 
 .selected {
   background-color:#BED85C;
-  color:#fff;
+  color:#555;
+}
+
+.bg-color {
+  background-color: #e4e4e4;
+  padding: 2em;
 }
 
 

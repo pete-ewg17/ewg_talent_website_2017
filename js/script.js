@@ -145,25 +145,36 @@ $(document).ready(function () {
 =============*/
 
 $(".btn").click(function() {
+  var selected = $(this).data('ref');
 	if($(this).hasClass('selected')) {
   	$(this).removeClass('selected');
+    $("#"+selected).prop('checked',false);
     if(!$("#next").hasClass('disabled')) {
     	$("#next").addClass('disabled');
     }
   } else {
-  	$(".btn").removeClass('selected');
-    var selected = $(this).data('ref');
     $(this).addClass('selected');
-    $("#answer").html(selected);
+    $("#"+selected).prop('checked',true);
     if($(".selected").length > 0) {
     	$("#next").removeClass('disabled');
     } else {
     	$("#next").addClass('disabled');
     }
   }
+  update_ans();
 });
 
 $("body").on('click','.disabled',function(e) {
 	 e.preventDefault();
 });
+
+function update_ans() {
+ var output = "";
+    $(".selected_btn").each(function(i,item) {
+    	if($(this).prop('checked')) {
+      	output = output+$(this).val()+",";
+      }
+    });
+     $("#answer").html(output);
+}
 
