@@ -78,7 +78,7 @@ AOS.init({
 =============*/
 
 $(function () {
-	  $('#ans').on('submit', function (e) {
+	  $('#final_ans').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
             var url = "../technology/contact.php";
             var f = $(this).serializeArray();
@@ -87,8 +87,7 @@ $(function () {
             $.post(url, {
                 fields:f
             }, function (result) {
-            console.log(result);
-            $("#ans").html("<h2>Thank you</h2>");
+            $("#final_ans").html("<h2>Thank you</h2>");
                 $("#loading_div").css('display', 'none');
                 $("#next").css('display', 'block');    
             });
@@ -163,7 +162,7 @@ $("body").on('click','.disabled',function(e) {
 
 $("#next").click(function() {
 	if(!$(this).hasClass('disabled')) {
-		$("#ans").submit();
+		$(".wizard_form").submit();
 	} else {
 	 alert("You must choose an option")
 	}

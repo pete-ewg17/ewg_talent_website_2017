@@ -72,7 +72,7 @@ $_SESSION['question_2'] = $_POST;
           <li class="hvr-underline-from-center"> <a href="index.html">Home</a></li>
           <li class="hvr-underline-from-center"><a href="selection-process.html">Our Selection Process</a></li>
           <li class="hvr-underline-from-center"><a href="#">How It Works</a></li>
-          <li><a href="get-started.html"><span class="text-info">Get Started</span></a></li>
+          <li class="hvr-underline-from-center"><a href="get-started.html">Get Started</a> </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -97,7 +97,7 @@ $_SESSION['question_2'] = $_POST;
     </div>
     <!--/.container -->
   </div>
- <form id='ans' method='post' action='get-started-3'>
+ <form id='ans' method='post' action='get-started-3' class='wizard_form'>
   <div class="container">
    <div class="row bg-color">
      <div class="col-md-8 col-md-offset-2">

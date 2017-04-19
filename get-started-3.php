@@ -2,7 +2,6 @@
 session_start();
 $_SESSION['question_3'] = $_POST;
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,7 +72,7 @@ $_SESSION['question_3'] = $_POST;
           <li class="hvr-underline-from-center"> <a href="index.html">Home</a></li>
           <li class="hvr-underline-from-center"><a href="selection-process.html">Our Selection Process</a></li>
           <li class="hvr-underline-from-center"><a href="#">How It Works</a></li>
-          <li><a href="get-started.html"><span class="text-info">Get Started</span></a></li>
+          <li class="hvr-underline-from-center"><a href="get-started.html">Get Started</a> </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -101,7 +100,7 @@ $_SESSION['question_3'] = $_POST;
  
  
  <div class="content-section-a">
-  		<form id="ans" method="post" role="form" action='thankyou'>
+  		<form id="final_ans" method="post" class='wizard_form' role="form" action='thankyou'>
               <div class="messages"></div>
               <div class="controls">
                 <div class="row">
@@ -156,7 +155,7 @@ $_SESSION['question_3'] = $_POST;
                     <a  class="btn btn-success btn-send disabled" id="next">Send Message</a >
                     <br>
                     <input type="hidden" id="form_type" name="form_type" value="new_talent">
-                    <input type="hidden" id="email_template" name="email_template" value="001_ewg_academy_template">
+                    <input type="hidden" id="email_template" name="email_template" value="00_ewg-talent-template">
                   </div>
                   <br>
                   <div class="row">
