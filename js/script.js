@@ -78,27 +78,20 @@ AOS.init({
 =============*/
 
 $(function () {
-
-    $('#contact-form').validator();
-
-    $('#contact-form').on('submit', function (e) {
+	  $('#ans').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "technology/contact.php";
+            var url = "../technology/contact.php";
             var f = $(this).serializeArray();
             $("#loading_div").css('display', 'block');
-            $("#submitButton").css('display', 'none');
+            $("#next").css('display', 'none');
             $.post(url, {
                 fields:f
             }, function (result) {
+            console.log(result);
+            $("#ans").html("<h2>Thank you</h2>");
                 $("#loading_div").css('display', 'none');
-                $("#submitButton").css('display', 'block');
-                $("form").trigger("reset"); 
-                $("#myModal").modal('hide');
-                $("#contact-form").reset();
-                    alert("Thank you");
-                
+                $("#next").css('display', 'block');    
             });
-
             return false;
         }
     })
@@ -161,19 +154,55 @@ $(".btn").click(function() {
     	$("#next").addClass('disabled');
     }
   }
-  update_ans();
 });
 
 $("body").on('click','.disabled',function(e) {
 	 e.preventDefault();
+	;
 });
 
-function update_ans() {
- var output = "";
-    $(".selected_btn").each(function(i,item) {
-    	if($(this).prop('checked')) {
-      	output = output+$(this).val()+",";
-      }
-    });
-     $("#answer").html(output);
+$("#next").click(function() {
+	if(!$(this).hasClass('disabled')) {
+		$("#ans").submit();
+	} else {
+	 alert("You must choose an option")
+	}
+});
+
+function check_ans2() {
+	if($("#number").val() != "") {
+		$("#next").removeClass('disabled');
+    } else {
+    if(!$("#next").hasClass("disabled")) {
+    	$("#next").addClass('disabled');
+    	}	
+	}
+}
+
+$("#number").keyup(function() {
+	check_ans2();
+});	
+$("#number").change(function() {
+	check_ans2();
+});	
+
+$(".mandatory").change(function() {
+	var comp = check_ans3();
+	if(comp) {
+		$("#next").removeClass('disabled');
+	} else {
+	 if(!$("#next").hasClass("disabled")) {
+    	$("#next").addClass('disabled');
+    	}
+	}
+});
+
+function check_ans3() {
+var comp = true;
+	$.each($(".mandatory"),function(i,item) {
+		if($(item).val() == '') {
+			comp = false;
+		}
+	});	
+	return comp;
 }

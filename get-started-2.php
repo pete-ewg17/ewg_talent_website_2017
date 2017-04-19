@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['question_2'] = $_POST;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -83,87 +87,40 @@
 
   <!-- Get Started -->
  <div id="wrap">
-   
-   <div class="content-section-g">
+  <div class="content-section-g">
     <div class="container started">
       <div class="row">
         <div class="col-md-8 text-center path">
-          <h2>Just need a few more details</h2>
+          <h2>Approximately how many motivated staff will be required per event?</h2>
         </div>
       </div>
     </div>
-  </div><!--/.container -->
- 
- 
- <div class="content-section-a">
-  <form id="contact-form" method="post" role="form">
-              <div class="messages"></div>
-              <div class="controls">
-                <div class="row">
-                  <div class="col-md-8 col-md-offset-2">
-                    <div class="form-group" data-toggle="validator" role="form">
-                      <label for="form_name">Name*</label>
-                      <input id="contact_name" type="text" name="name" class="form-control" placeholder="Please enter your full name" required="required" data-error="Name is required.">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-8 col-md-offset-2">
-                    <div class="form-group">
-                      <label for="form_name">Email*</label>
-                      <input id="contact_email" type="email" name="email" class="form-control" placeholder="Please enter your email">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-8 col-md-offset-2">
-                    <div class="form-group">
-                      <label for="form_phone">Phone*</label>
-                      <input id="contact_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number" required="required">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-8 col-md-offset-2">
-                    <div class="form-group">
-                      <label for="form_company">Company*</label>
-                      <input id="company" type="text" name="company" class="form-control" placeholder="Please enter your Company or Organization" required="required">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-8 col-md-offset-2">
-                    <div class="form-group">
-                      <label for="sel1">State:</label>
-                          <select name="option_select">
-                            <option value="VIC">ACT</option>
-                            <option value="NSW">NSW</option>
-                            <option value="QLD">QLD</option>
-                            <option value="SA">SA</option>
-                            <option value="WA">WA</option>
-                            <option value="TAS">TAS</option>
-                          </select>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-md-offset-2 submit">
-                    <button type="submit" class="btn btn-success btn-send" id="submitButton">Send Message</button>
-                    <br>
-                    <input type="hidden" id="form_type" name="form_type" value="contact_us">
-                  </div>
-                  <br>
-                  <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                      <div id="loading_div" style="display:none">LOADING</div>
-                      <div id="submitted_div" style="display:none">Submitted</div>
-                      <p class="text-muted"><strong>*</strong> These fields are required.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form> 
+    <!--/.container -->
+  </div>
+ <form id='ans' method='post' action='get-started-3'>
+  <div class="container">
+   <div class="row bg-color">
+     <div class="col-md-8 col-md-offset-2">
+       <div class="form-group center">
+         <label for="number-input"></label>
+        <input placeholder="Please enter a number:" type="number" class="form-control" name='num_staff' id="number">
       </div>
+    </div>                 
+    </div><!-- END SECOND ROW -->
+  </div>      
+    </form>
+  <div class="content-section-h">
+    <div class="col-md-12 text-center">
+        <div class="header-button">
+          <a id="next" class="btn btn-outline disabled">Next</a>
+        </div>
+    </div>
+  </div>  
+        
+
  </div><!-- END WRAPPER -->
+
+  
   
   
 <!--DONT TOUCH-->

@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['question_3'] = $_POST;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -83,48 +88,89 @@
 
   <!-- Get Started -->
  <div id="wrap">
-  <div class="content-section-g">
+   
+   <div class="content-section-g">
     <div class="container started">
       <div class="row">
         <div class="col-md-8 text-center path">
-          <h2>Over the next 12 months, approximately how many events will you require staff for?</h2>
+          <h2>Just need a few more details</h2>
         </div>
       </div>
     </div>
-    <!--/.container -->
-  </div>
-  <div class="container">
-   <div class="row bg-color">
-     <div class="col-md-8 col-md-offset-2">
-       <div class="form-group center">
-         <label for="number-input"></label>
-        <input placeholder="Please enter a number:" type="number" class="form-control" id="number">
-      </div>
-    </div>                 
-    </div><!-- END SECOND ROW -->
-  </div>      
-        <form style='display:none' method='post'>
-          <input class='selected_btn' type='checkbox' id='One' value='One'/>
-          <input class='selected_btn' type='checkbox' id='Two' value='Two'/>
-          <input class='selected_btn' type='checkbox' id='Three' value='Three'/>
-          <input class='selected_btn' type='checkbox' id='One' value='Four'/>
-          <input class='selected_btn' type='checkbox' id='Two' value='Five'/>
-          <input class='selected_btn' type='checkbox' id='Three' value='Six'/>
-       </form>
-        
-        
-        <div class="content-section-h">
-          <div class="col-md-12 text-center">
-              <div class="header-button">
-                <a id="next" href="get-started-2.html" class="btn btn-outline">Next</a>
+  </div><!--/.container -->
+ 
+ 
+ <div class="content-section-a">
+  		<form id="ans" method="post" role="form" action='thankyou'>
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group" data-toggle="validator" role="form">
+                      <label for="form_name">Name*</label>
+                      <input id="contact_name" type="text" name="name" class="form-control mandatory" placeholder="Please enter your full name" required="required" data-error="Name is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_name">Email*</label>
+                      <input id="contact_email" type="email" name="email" class="form-control mandatory" placeholder="Please enter your email">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_phone">Phone*</label>
+                      <input id="contact_phone" type="tel" name="phone" class="form-control mandatory" placeholder="Please enter your phone number" required="required">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_company">Company*</label>
+                      <input id="company" type="text" name="company" class="form-control mandatory" placeholder="Please enter your Company or Organization" required="required">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="sel1">State:</label>
+                          <select name="option_select" class='mandatory'>
+                            <option value="VIC">VIC</option>
+                            <option value="NSW">NSW</option>
+                            <option value="QLD">QLD</option>
+                            <option value="SA">SA</option>
+                            <option value="WA">WA</option>
+                            <option value="TAS">TAS</option>
+                            <option value="ACT">ACT</option>
+                          </select>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-md-offset-2 submit">
+                    <a  class="btn btn-success btn-send disabled" id="next">Send Message</a >
+                    <br>
+                    <input type="hidden" id="form_type" name="form_type" value="new_talent">
+                    <input type="hidden" id="email_template" name="email_template" value="001_ewg_academy_template">
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                      <div id="loading_div" style="display:none">LOADING</div>
+                      <div id="submitted_div" style="display:none">Submitted</div>
+                      <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-          </div>
-        </div>  
-        
-
+            </form> 
+      </div>
  </div><!-- END WRAPPER -->
-
-  
   
   
 <!--DONT TOUCH-->

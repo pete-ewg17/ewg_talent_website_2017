@@ -1,3 +1,8 @@
+<?php
+session_destroy();
+session_start();
+$_SESSION['question_1'] = $_POST;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -87,30 +92,33 @@
     <div class="container started">
       <div class="row">
         <div class="col-md-8 text-center path">
-          <h2>Approximately how many motivated staff will be required per event?</h2>
+          <h2>Over the next 12 months, approximately how many events will you require staff for?</h2>
         </div>
       </div>
     </div>
     <!--/.container -->
   </div>
+          <form id='ans' method='post' action='get-started-2'>
   <div class="container">
    <div class="row bg-color">
      <div class="col-md-8 col-md-offset-2">
        <div class="form-group center">
          <label for="number-input"></label>
-        <input placeholder="Please enter a number:" type="number" class="form-control" id="number">
+        <input placeholder="Please enter a number:" type="number" class="form-control" name='num_events' id="number">
       </div>
     </div>                 
     </div><!-- END SECOND ROW -->
   </div>      
+     </form>
         
-  <div class="content-section-h">
-    <div class="col-md-12 text-center">
-        <div class="header-button">
-          <a id="next" href="get-started-3.html" class="btn btn-outline">Next</a>
-        </div>
-    </div>
-  </div>  
+        
+        <div class="content-section-h">
+          <div class="col-md-12 text-center">
+              <div class="header-button">
+                <a id="next" class="btn btn-outline disabled">Next</a>
+              </div>
+          </div>
+        </div>  
         
 
  </div><!-- END WRAPPER -->
