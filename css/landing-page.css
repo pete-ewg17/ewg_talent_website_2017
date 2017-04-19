@@ -446,7 +446,7 @@ content {
 }
 
 .content-section-a {
-	padding: 2.8em 0 2.8em 0;
+	padding: 2.8em 1.2em 2.8em 1.2em;
 }
 
 .content-section-a h2 {
@@ -454,8 +454,8 @@ content {
 }
 
 .content-section-d {
-	padding: 5.8em 0 5.3em 0;
-	background-color: #efefef;
+	padding-bottom: 1.2em;
+	background-color: #f8f8f8;
 }
 
 .content-section-d h2 {
@@ -682,7 +682,7 @@ select {
 	height: 2em;
 	color: #555;
 	background-color: #fff;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 
@@ -708,6 +708,7 @@ select {
 ================*/
 .modal-content {
 	border-radius: 0px;
+    padding: 1.2em;
 }
 
 .modal-header {
@@ -728,6 +729,10 @@ select {
 
 .modal-body a {
     color: #555;
+}
+
+.submit {
+  padding:1.2em;
 }
 
 .modal-footer {
@@ -934,13 +939,26 @@ select {
 
 /*GET STARTED STYLES */
 
+.container .started {
+  width: 50%;
+}
+
 .content-section-g {
 	padding: 6.8em 0 1.2em 0;
 	background-color: #efefef;
 }
 
-.portfolio-item p {
-  margin: 0.5em 0 0 0;
+.portfolio-item {
+  margin: auto;
+  display: block;
+}
+
+.bg-color p {
+   margin-left: .6em;
+}
+
+.portfolio-item img {
+  
 }
 
  /*.getStarted {
@@ -963,6 +981,13 @@ select {
   padding: 2em;
 }
 
+.content-section-h {
+  padding: 1.8em 0 6em 0;
+}
+
+.form-group {
+  margin: 0 auto;
+}
 
 
 

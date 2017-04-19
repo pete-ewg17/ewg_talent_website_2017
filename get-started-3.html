@@ -83,81 +83,87 @@
 
   <!-- Get Started -->
  <div id="wrap">
-  <div class="content-section-g">
-    <div class="container">
+   
+   <div class="content-section-g">
+    <div class="container started">
       <div class="row">
         <div class="col-md-8 text-center path">
-          <h2>What type of motivated staff are you looking for?</h2>
+          <h2>Just need a few more details</h2>
         </div>
       </div>
     </div>
-    <!--/.container -->
-  </div>
-  <div class="container">
-   <div class="row bg-color">
-            <div class="col-md-4 portfolio-item">
-                <a class="btn" data-ref='One'>
-                    <img class="img-responsive" src="assets/images/brandactivation.jpg" alt="">
-                </a>
-                <p>Brand Activations</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a class="btn" data-ref='Two'>
-                    <img class="img-responsive" src="assets/images/event_operations.jpg" alt="">
-                </a>
-                <p>Event Operations</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a class="btn" data-ref='Three'>
-                    <img class="img-responsive" src="assets/images/ticketing.jpg" alt="">
-                </a>
-                <p>Ticketing Operations</p>
-            </div>
-        </div><!-- END FIRST ROW -->
-        
-    <div class="row bg-color">
-            <div class="col-md-4 portfolio-item">
-                <a class="btn" data-ref='Four'>
-                    <img class="img-responsive" src="assets/images/merchandise.jpg" alt="">
-                </a>
-                <p>Merchandise</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a class="btn" data-ref='Five'>
-                    <img class="img-responsive" src="assets/images/hospitality.jpg" alt="">
-                </a>
-                <p>Hospitality</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a class="btn" data-ref='Six'>
-                    <img class="img-responsive" src="assets/images/fulltime.jpg" alt="">
-                </a>
-                <p>Contract of Full Time</p>
-            </div>
-        </div><!-- END SECOND ROW -->
-        
-        <form style='display:none' method='post'>
-          <input class='selected_btn' type='checkbox' id='One' value='One'/>
-          <input class='selected_btn' type='checkbox' id='Two' value='Two'/>
-          <input class='selected_btn' type='checkbox' id='Three' value='Three'/>
-          <input class='selected_btn' type='checkbox' id='One' value='Four'/>
-          <input class='selected_btn' type='checkbox' id='Two' value='Five'/>
-          <input class='selected_btn' type='checkbox' id='Three' value='Six'/>
-       </form>
-        
-        
-        <div class="content-section-h">
-          <div class="col-md-12 text-center">
-              <div class="header-button">
-                <a id="next" href="get-started-1.html" class="disabled btn btn-outline">Next</a>
+  </div><!--/.container -->
+ 
+ 
+ <div class="content-section-a">
+  <form id="contact-form" method="post" role="form">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group" data-toggle="validator" role="form">
+                      <label for="form_name">Name*</label>
+                      <input id="contact_name" type="text" name="name" class="form-control" placeholder="Please enter your full name" required="required" data-error="Name is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_name">Email*</label>
+                      <input id="contact_email" type="email" name="email" class="form-control" placeholder="Please enter your email">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_phone">Phone*</label>
+                      <input id="contact_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number" required="required">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_company">Company*</label>
+                      <input id="company" type="text" name="company" class="form-control" placeholder="Please enter your Company or Organization" required="required">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="sel1">State:</label>
+                          <select name="option_select">
+                            <option value="VIC">ACT</option>
+                            <option value="NSW">NSW</option>
+                            <option value="QLD">QLD</option>
+                            <option value="SA">SA</option>
+                            <option value="WA">WA</option>
+                            <option value="TAS">TAS</option>
+                          </select>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-md-offset-2 submit">
+                    <button type="submit" class="btn btn-success btn-send" id="submitButton">Send Message</button>
+                    <br>
+                    <input type="hidden" id="form_type" name="form_type" value="contact_us">
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                      <div id="loading_div" style="display:none">LOADING</div>
+                      <div id="submitted_div" style="display:none">Submitted</div>
+                      <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-          </div>
-        </div>  
-        
-
- </div><!-- END CONTAINER -->
-</div><!--END WRAPPER-->  
-  
+            </form> 
+      </div>
+ </div><!-- END WRAPPER -->
   
   
 <!--DONT TOUCH-->
