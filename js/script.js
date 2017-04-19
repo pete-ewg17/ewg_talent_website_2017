@@ -177,7 +177,3 @@ function update_ans() {
     });
      $("#answer").html(output);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
