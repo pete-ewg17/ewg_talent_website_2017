@@ -50,7 +50,16 @@ content {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
+.text-info {
+    background: #ffc107;
+    padding: 0.8em 0.8em 0.8em 0.8em;
+    border-radius: 5px;
+    color: #fff;
+}
 
+.text-info:hover {
+  background: #ffa000;
+}
 
 .btn-primary,
 .btn-primary:active {
@@ -961,11 +970,6 @@ select {
   
 }
 
- /*.getStarted {
-  cursor:pointer;
-  transition: all 200ms linear;
-}
-*/
 .btn:hover {
   background-color:#ffa000;
   color:#555;
