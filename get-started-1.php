@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['question_3'] = $_POST;
+$_SESSION['question_1'] = $_POST;
 ?>
 <!DOCTYPE html>
 <html lang="en">

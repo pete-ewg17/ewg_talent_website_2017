@@ -87,6 +87,7 @@ $(function () {
             $.post(url, {
                 fields:f
             }, function (result) {
+            console.log(result);
             $("#final_ans").html("<h2>Thank you</h2>");
                 $("#loading_div").css('display', 'none');
                 $("#next").css('display', 'block');    
