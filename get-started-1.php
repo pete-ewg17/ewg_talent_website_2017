@@ -1,7 +1,6 @@
 <?php
-session_destroy();
 session_start();
-$_SESSION['question_1'] = $_POST;
+$_SESSION['question_3'] = $_POST;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -88,42 +87,120 @@ $_SESSION['question_1'] = $_POST;
 
   <!-- Get Started -->
  <div id="wrap">
-  <div class="content-section-g">
+   
+   <div class="content-section-g">
     <div class="container started">
       <div class="row">
         <div class="col-md-8 text-center path">
-          <h2>Over the next 12 months, approximately how many events will you require staff for?</h2>
+          <h2>Just need a few more details</h2>
         </div>
       </div>
     </div>
-    <!--/.container -->
-  </div>
-          <form id='ans' method='post' action='get-started-2' class='wizard_form'>
-  <div class="container">
-   <div class="row bg-color">
-     <div class="col-md-8 col-md-offset-2">
-       <div class="form-group center">
-         <label for="number-input"></label>
-        <input placeholder="Please enter a number:" type="number" class="form-control" name='num_events' id="number">
-      </div>
-    </div>                 
-    </div><!-- END SECOND ROW -->
-  </div>      
-     </form>
-        
-        
-        <div class="content-section-h">
-          <div class="col-md-12 text-center">
-              <div class="header-button">
-                <a id="next" class="btn btn-outline disabled">Next</a>
+  </div><!--/.container -->
+ 
+ 
+ <div class="content-section-a">
+  		<form id="final_ans" method="post" class='wizard_form' role="form" action='thankyou'>
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group" data-toggle="validator" role="form">
+                      <label for="form_name">Name*</label>
+                      <input id="contact_name" type="text" name="name" class="form-control mandatory" placeholder="Please enter your full name" required="required" data-error="Name is required.">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_name">Email*</label>
+                      <input id="contact_email" type="email" name="email" class="form-control mandatory" placeholder="Please enter your email">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  </div>
+                   <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_phone">Phone*</label>
+                      <input id="contact_phone" type="tel" name="phone" class="form-control mandatory" placeholder="Please enter your phone number" required="required">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  </div>
+                   <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_company">Company*</label>
+                      <input id="company" type="text" name="company" class="form-control mandatory" placeholder="Please enter your Company or Organization" required="required">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  </div>
+                   <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="form_company">Position/Title*</label>
+                      <input id="position" type="text" name="position" class="form-control mandatory" placeholder="Please enter your position in the company" required="required">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="sel1">Address</label>
+                          <input type='text' name="address" id='address' class='form-control mandatory'/>
+                      <div class="help-block with-errors"></div>
+                      <input type='hidden' data-st='long_name' id='street_number' name='street_number' value=''/>
+                      <input type='hidden' data-st='long_name' id='route' name='route' value=''/>
+                      <input type='hidden' data-st='long_name' id='locality' name='locality' value=''/>
+                      <input type='hidden' data-st='long_name' id='administrative_area_level_1' name='administrative_area_level_1' value=''/>
+                      <input type='hidden' data-st='long_name' id='country' name='country' value=''/>
+                      <input type='hidden' data-st='long_name' id='postal_code' name='postal_code' value=''/>
+                    </div>
+                  </div>
+                  </div>
+                   <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="sel1">Password</label>
+                          <input type='password' name="password" id='password' class='form-control mandatory'/>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  </div>
+                   <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                      <label for="sel1">Confirm Password</label>
+                          <input type='password' id='password2' class='form-control mandatory'/>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-md-6 col-md-offset-2 submit">
+                    <a  class="btn btn-success btn-send disabled" id="next">Send Message</a >
+                    <br>
+                    <input type="hidden" id="form_type" name="form_type" value="new_talent">
+                    <input type="hidden" id="email_template" name="email_template" value="00_ewg-talent-template">
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                      <div id="loading_div" style="display:none">LOADING</div>
+                      <div id="submitted_div" style="display:none">Submitted</div>
+                      <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-          </div>
-        </div>  
-        
-
+            </form> 
+      </div>
  </div><!-- END WRAPPER -->
-
-  
   
   
 <!--DONT TOUCH-->
@@ -177,5 +254,6 @@ $_SESSION['question_1'] = $_POST;
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <!--Web Script-->
   <script src="js/script.js"></script>
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBq10WQ5iexOEyCvy01hKyTPXEOjttR3jg&libraries=places'></script>
   </body>
 </html>

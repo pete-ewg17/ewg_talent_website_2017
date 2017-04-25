@@ -93,18 +93,42 @@ $(function () {
             });
             return false;
         }
-    })
+    });
+   
 });
 
 /*===========
   Counter 
 =============*/
+
+ var searchBox;
 $(document).ready(function () {
+	if($(".counter-num").length > 0) {
 	$('.counter-num').counterUp({
 		delay: 10,
 		time: 1000
 	});
+	}
+	 if($("#address").length > 0) {
+    	 var input =document.getElementById('address');
+    	  searchBox = new google.maps.places.Autocomplete((input),{types: ['geocode']});
+    	searchBox.addListener('place_changed', fillInAddress);
+    }
 });
+
+  function fillInAddress() {
+    var place = searchBox.getPlace();
+        // Get each component of the address from the place details
+        // and fill the corresponding field on the form.
+        for (var i = 0; i < place.address_components.length; i++) {
+          var addressType = place.address_components[i].types[0];
+          var str = $("#"+addressType).data('st');
+          if($("#"+addressType).length > 0){
+            var val = place.address_components[i][str];
+            document.getElementById(addressType).value = val;
+            }
+        }
+  }
 
 /*===========
   Client Logo Carousel 
