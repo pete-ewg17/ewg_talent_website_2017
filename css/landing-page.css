@@ -427,7 +427,6 @@ content {
     background-size: cover;
 }
 .featurette-image {
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 	position: relative;
 	top: 2.2em;
 }
@@ -481,10 +480,6 @@ content {
 
 .cta {
   padding-top: 0;
-}
-
-.featurette-image {
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); 
 }
 
 .section-heading {
@@ -612,8 +607,16 @@ ol.carousel-indicators {
 }
 
 .stats-header {
-  padding: 0 0 3em 0;
+  padding: 0 0 1em 0;
   color: #555;
+}
+
+.stats-header h1 {
+  font-family: 'Open Sans', Helvetica;
+	color: #555;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2.18em;
 }
 
 .counter-item i {
@@ -632,7 +635,7 @@ ol.carousel-indicators {
 
 .counter-item p {
 	color: #555;
-	font-size: 2em;
+	font-size: 1.8em !important;
 	margin-top: 0;
 	font-weight: 300;
 }

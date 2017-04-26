@@ -250,21 +250,21 @@
   <!--STATS COUNTER-->
   <div class="content-section-c" data-aos="fade-down" data-aos-once="true">
     <div class="container ">
-      <div class="row text-center " data-aos="fade-up " data-aos-once="true ">
+      <div class="row text-center" data-aos="fade-up " data-aos-once="true ">
         <div class="col-md-8 col-md-offset-2 stats-header text-center ">
-          <h1>Proven Results</h1>
+          <h1 class="stats-header">Proven Results</h1>
         </div>
         <div class="col-md-4">
           <div class="counter-item ">
-            <div><i class="fa fa-calendar "></i></div>
-            <h2><span class="counter-num ">1000</span><span>&#43;</span></h2>
+            <div><i class="fa fa-calendar"></i></div>
+            <h2><span class="counter-num">1000</span><span>&#43;</span></h2>
             <p>Annual Events</p>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="counter-item ">
-            <div><i class="fa fa-users "></i></div>
+            <div><i class="fa fa-users"></i></div>
             <h2><span class="counter-num ">20,000</span><span>&#43;</span></h2>
             <p>Motivated Workforcers</p>
           </div>
@@ -272,8 +272,8 @@
 
         <div class="col-md-4">
           <div class="counter-item ">
-            <div><i class="fa fa-check-square-o "></i></div>
-            <h2><span class="counter-num ">68,000</span><span>&#43;</span></h2>
+            <div><i class="fa fa-check-square-o"></i></div>
+            <h2><span class="counter-num">68,000</span><span>&#43;</span></h2>
             <p>Annual Hours Worked</p>
           </div>
         </div>
@@ -285,10 +285,10 @@
     <div class="content-section-d cta" data-aos="fade-down" data-aos-once="true">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center ">
+          <div class="col-md-12 text-center">
             <h2 style="color: #555; font-size: 2.25rem">Looking to Hire?</h2>
             <div class="button-header">
-              <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn-outline">Get Staff</a>
+              <a href="https://ew.rosterfy.co/register" target="_blank" class="btn btn-outline">Get Started</a>
             </div>
           </div>
         </div>
@@ -337,86 +337,6 @@
       </div>
     </div>
   </footer>
-
-    <!-- MODAL FOR CONTACT -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">Contact Us</h4> 
-                </div>
-                <div class="modal-body">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <form id="contact-form" method="post" role="form">
-                            <div class="messages"></div>
-                            <div class="controls">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group" data-toggle="validator" role="form">
-                                            <label for="form_name">Name*</label>
-                                            <input id="contact_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Name is required." >
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="form_name">Email*</label>
-                                            <input id="contact_email" type="email" name="email" class="form-control" placeholder="Please enter your email"> 
-                                            <div class="help-block with-errors"></div>
-                                            </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="form_phone">Phone</label>
-                                            <input id="contact_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number" required="required">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="sel1">Why are you contacting us?*</label>
-                                            <select name="option_select">
-                                                <option value="work">Looking for work?</option>
-                                                <option value="staff">Looking for staff?</option>
-                                                <option value="software">Looking for software?</option>
-                                            </select>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="form_message">Message*</label>
-                                            <textarea id="contact_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                            <button type="submit" class="btn btn-success btn-send" id="submitButton">Send Message</button>
-                                            <br>
-                                            <input type="hidden" id="form_type" name="form_type" value="contact_us">
-                                    </div>
-                                        <br>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div id= "loading_div" style= "display:none">LOADING</div>
-                                            <div id= "submitted_div" style= "display:none">Submitted</div>
-                                            <p class="text-muted"><strong>*</strong> These fields are required.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>    
-                    </div>
-                    <div class="modal-footer"></div>
-                </div>  <!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-    </div> 
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
