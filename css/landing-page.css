@@ -616,7 +616,7 @@ ol.carousel-indicators {
 	color: #555;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 2.18em;
+	font-size: 2em;
 }
 
 .counter-item i {
@@ -635,7 +635,14 @@ ol.carousel-indicators {
 
 .counter-item p {
 	color: #555;
-	font-size: 1.8em !important;
+	font-size: 1.8em;
+	margin-top: 0;
+	font-weight: 300;
+}
+
+.stats-p p {
+    color: #555;
+	font-size: 1.6em;
 	margin-top: 0;
 	font-weight: 300;
 }
