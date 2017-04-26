@@ -51,21 +51,22 @@ content {
 }
 
 .text-info {
-    background: #ffc107;
+    background: #B3D144;
     padding: 0.8em 0.8em 0.8em 0.8em;
     border-radius: 5px;
     color: #fff;
 }
 
 .text-info:hover {
-  background: #ffa000;
+  background: #99b23b;
+  color: #555;
 }
 
 .btn-primary,
 .btn-primary:active {
-	background-color: #ffc107;
+	background-color: #99b23b;
 	border-color: #555;
-	color: #555;
+	color: #fff;
 	margin: 1.3em 0;
 	padding: 0.5em;
 	font-size: 1.3em;
@@ -77,8 +78,8 @@ content {
 .btn-outline:focus {
 	position: relative;
 	top: 0.5rem;
-	background-color: #ffc107;
-	color: #555;
+	background-color: #B3D144;
+	color: #fff;
 	border: none;
 	padding: 0.8em 1.2em 0.8em 1.2em;
 	font-size: 1.3em;
@@ -403,7 +404,9 @@ content {
 
 .portfolio-item {
   margin-bottom: 1.5em;
+  font-size: 90%;
 }
+
 
 .path {
   position: relative;
@@ -971,7 +974,7 @@ select {
 }
 
 .btn:hover {
-  background-color:#ffa000;
+  background-color:#BED85C;
   color:#555;
 }
 
