@@ -268,11 +268,11 @@ content {
 
 .intro-header {
 	padding-top: 4.1em;
-	padding-bottom: 0.8em;
+	padding-bottom: 0.9em;
 	color: #f8f8f8;
 	background: url("../assets/talent_header.jpg") no-repeat center center;
 	background-size: cover;
-	min-height: 50vh;
+	min-height: 60vh;
 }
 
 .intro-message {
@@ -812,7 +812,6 @@ select {
 	-webkit-transform: rotate(0);
 	transform: rotate(0);
 }
-
 
 /* LIST GROUP ITEM */
 
