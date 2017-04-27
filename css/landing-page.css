@@ -263,6 +263,14 @@ content {
 	background-color: #fbb044;
 }
 
+@media(max-width:767px) {
+  .nav > li {
+	margin-top: 0.9em;
+  }
+
+}
+
+
 
 /* Header Styles*/
 
@@ -316,7 +324,7 @@ content {
 
 @media(max-width:767px) {
 	.intro-header {
-		min-height: 50%;
+		min-height: 70%;
 		width: 100%;
 	}
 	.intro-message {
