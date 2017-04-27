@@ -87,8 +87,7 @@ $(function () {
             $.post(url, {
                 fields:f
             }, function (result) {
-            console.log(result);
-            $("#final_ans").html("<h2>Thank you</h2>");
+            $("#final_ans").html("<div class='row'><h2 class='col-md-8 col-md-offset-2'>Thanks for registering! It's great to have you on board.<br/></br>Check your inbox to get things started.</h2></div>");
                 $("#loading_div").css('display', 'none');
                 $("#next").css('display', 'block');    
             });
