@@ -197,7 +197,7 @@ $_SESSION['question_1'] = $_POST;
                   <br>
                   <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                      <div id="loading_div" style="display:none">LOADING</div>
+                      <div id="loading_div" style="display:none"><img href="assets/ring.gif"></div>
                       <div id="submitted_div" style="display:none">Submitted</div>
                       <p class="text-muted"><strong>*</strong> These fields are required.</p>
                     </div>
