@@ -16,7 +16,7 @@ $_SESSION['question_1'] = $_POST;
   <meta property="og:description" content="EWG Talent is a staffing agency like no other - one entirely tailored to the events, sport and entertainment industry." />
   <meta property="og:image" content="http://eventworkforcegroup.com/blog/wp-content/uploads/2016/11/EWG-Talent-Logo-FA-e1480399593341.png">
   <meta property="og:url" content="http://eventworkforcegroup.com/talent">
-  <title> Welcome | Event Workforce Group Talent</title>
+  <title> Sign Up | Event Workforce Group Talent</title>
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <!-- Custom CSS -->
@@ -203,8 +203,9 @@ $_SESSION['question_1'] = $_POST;
                     </div>
                   </div>
                 </form>   
-        </div><!-- END WRAPPER -->
-                <div id="loading_div" style="display:none"><img href="assets/ring.gif"></div>
+        </div><!-- CONTENT SECTION - A -->
+  </div><!-- END WRAPPER -->
+<div id="loading_div" style="display:none"><img href="assets/ring.gif"></div>
   
   
 <!--DONT TOUCH-->
