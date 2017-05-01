@@ -1015,7 +1015,7 @@ select {
 }
 
 
-#loading-div {
+#loading_div {
     display: block;
     position: relative;
     top: -3em;
