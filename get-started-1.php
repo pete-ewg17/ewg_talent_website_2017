@@ -206,7 +206,6 @@ $_SESSION['question_1'] = $_POST;
                 </form>   
         </div><!-- CONTENT SECTION - A -->
   </div><!-- END WRAPPER -->
-<div id="loading_div" style="display:none"><img href="assets/ring.gif"></div>
   
   
 <!--DONT TOUCH-->
