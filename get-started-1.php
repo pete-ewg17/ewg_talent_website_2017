@@ -98,8 +98,8 @@ $_SESSION['question_1'] = $_POST;
     <div class="container started">
       <div class="row">
         <div class="col-md-8 text-center path">
-          <h2 id='more_details_heading'>Just need a few more details</h2>
-          <h3>By filling in this form you’ll gain access to our motivated and determined staff through an online client portal</h3>
+          <h2 id='more_details_heading'>Create Your Own Portal</h2>
+          <h3>By completing the below fields you will gain access to your own portal which enables you to submit workforce requests, view quotes, download rosters, track invoices and submit post-event feedback</h3>
         </div>
       </div>
     </div>
