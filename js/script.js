@@ -87,9 +87,11 @@ $(function () {
             $.post(url, {
                 fields:f
             }, function (result) {
+            console.log(result);
             $("#more_details_heading").css("display:none");
             $("#final_ans").html("<div class='row'><h2 class='col-md-8 col-md-offset-2' style='text-align:center;'>Thanks for registering! It's great to have you on board.<br/></br>Check your inbox to get things started.</h2></div>");
                 $("#loading_div").css('display', 'none');
+                $(".container.started").css("display","none");
                 $("#next").css('display', 'block');    
             });
             return false;
