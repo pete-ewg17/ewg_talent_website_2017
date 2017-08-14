@@ -2,7 +2,7 @@
 $file_base = "";
 $title = "How It Works";
 $desc = "EWG Talent is a staffing agency like no other - one entirely tailored to the events, sport and entertainment industry";
-$header_extra = '<link href="css/pathway.css" rel="stylesheet">';
+$header_extra = '<link rel="stylesheet" href="css/reset.css"><link href="css/pathway.css" rel="stylesheet">';
 include $file_base."template/header.php";
 ?>
   <!-- Header -->
