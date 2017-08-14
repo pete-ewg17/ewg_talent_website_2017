@@ -1,4 +1,4 @@
-<?php 
+<?php
 if(!isset($file_base)) {
 	$file_base = "";
 }
@@ -29,7 +29,7 @@ if(!isset($header_extra)) {
   <meta property="og:url" content="http://eventworkforcegroup.com/talent">
   <title><?php echo $title; ?> | Event Workforce Group Talent</title>
   <!-- Bootstrap Core CSS -->
- 
+
   <link href="<?php echo $file_base; ?>css/bootstrap.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link href="<?php echo $file_base; ?>css/landing-page.css" rel="stylesheet">
@@ -70,7 +70,7 @@ if(!isset($header_extra)) {
 </head>
 
 <body>
-  
+
   <!-- Navigation -->
   <nav class="navbar navbar-default navbar-fixed-top topnav animated fadeInDown" role="navigation">
     <div class="container topnav">
