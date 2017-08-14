@@ -1,7 +1,7 @@
  <?php 
  if(!isset($footer_extra)) {
 	$footer_extra = "";
-	
+
 }
 
 if(!isset($no_get_started)) {
