@@ -104,8 +104,8 @@ include $file_base."template/header.php";
       <!-- cd-timeline-img -->
 
       <div class="cd-timeline-content">
-        <h2>Track quotes and invoices</h2>
-        <p>Upon adding an event you can request quotes or invoices to be stored within your portal to save you from needing to check through your inbox. You can also download these to share with your wider team.</p>
+        <h2>Instant quotes and Invoices</h2>
+        <p>Upon adding an event you get an instant quote and invoicing to be stored within your portal to save you from needing to check through your inbox. You can also download these to share with your wider team.</p>
 
 
           <span class="cd-date">Fifth Step</span>
