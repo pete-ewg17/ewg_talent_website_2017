@@ -1,6 +1,6 @@
 <?php
 $file_base = "";
-$title = "Welcome";
+$title = "Latest Updates";
 $desc = "EWG Talent is a staffing agency like no other - one entirely tailored to the events, sport and entertainment industry";
 include $file_base."template/header.php";
 ?>
@@ -43,7 +43,7 @@ include $file_base."template/header.php";
       <div class="row">
         <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
           <h2>Brand New Client Portal</h2>
-          <p>Our latest update from Event Workforce Group, is our <strong>BRAND NEW</strong> client portal. With feature updates such as live quoting, available across all devices including mobile and tablet plus a brand new look and feel. This is one of our biggest updates yet and we couldn't be more more excited to finally r.</p>
+          <p>Our latest update from Event Workforce Group, is our <strong>BRAND NEW</strong> client portal. With feature updates such as live quoting, available across all devices including mobile and tablet plus a brand new look and feel. This is one of our biggest updates yet and we couldn't be more more excited to finally release it to the world.</p>
           <div class="header-button">
               <a href="https://ew.rosterfy.co/ewg?talent" class="btn btn-outline">Log In</a>
           </div>
@@ -70,29 +70,29 @@ include $file_base."template/header.php";
 
               <div class="col-md-4 portfolio-item">
                   <a href="#">
-                      <img class="img-responsive" src="assets/images/ipad_mock.png" alt="Event Operations">
+                      <img class="img-responsive" src="assets/images/ipad_mock.png" alt="Ipad photo">
                   </a>
                 <div class="portfolio-text">
                   <h3>Complete New Look</h3>
-                  <p>A brand new look and feel. We are a firm believer of out with the old and in with the new that is exactly what we have done.</p>
+                  <p>We are a firm believer of out with the old and in with the new and that is exactly what we have done. The portal is now stylish, user friendly and intuitive, what more could you ask for.</p>
                 </div>
               </div>
               <div class="col-md-4 portfolio-item">
                   <a href="#">
-                      <img class="img-responsive" src="assets/images/past_events.png" alt="">
+                      <img class="img-responsive" src="assets/images/past_events.png" alt="Macbook photo of new portal">
                   </a>
                 <div class="portfolio-text">
                   <h3>Past Events</h3>
-                  <p>Past events has had a whole new re-haul, you can view the ins and outs of your past events and view any photos your workforcers have uploaded.</p>
+                  <p>Past events has had a timely over-haul, you can now view the ins and outs of your past events and view any photos of our Workforcers on site. Keeping track of your event portfolio has never been so easy.</p>
                 </div>
               </div>
               <div class="col-md-4 portfolio-item">
                   <a href="#">
-                      <img class="img-responsive" src="assets/images/responsive_client_mock.gif" alt="">
+                      <img class="img-responsive" src="assets/images/responsive_client_mock.gif" alt="All devices photo">
                   </a>
                 <div class="portfolio-text">
                   <h3>Responsive</h3>
-                  <p>We understand that in this day and age being able to work from just a computer is limiting. So we have designed the new portal to work across the broad market of smart phones and tablets on the market.</p>
+                  <p>We understand that in this day and age, being able to work from behind a desk is limiting. We have designed the new portal to work across the broad market of smart phones and tablets so you can access it while on the go.</p>
                 </div>
               </div>
 
@@ -106,20 +106,29 @@ include $file_base."template/header.php";
       <div class="row">
         <div class="col-md-4 portfolio-item">
             <a href="#">
-                <img class="img-responsive" src="assets/images/quote.png" alt="Brand Activations">
+                <img class="img-responsive" src="assets/images/live_quotes.png" alt="Live quoting imac">
             </a>
           <div class="portfolio-text">
             <h3>Live Quoting</h3>
-            <p>We all love instant gratification, with our brand new live quoting feature. You can see in real time how much your staff is going to cost you for your event.</p>
+            <p>We all love instant gratification. Our instant quoting feature provides exactly that. You can now view all staffing rates per role and shift, allowing you to streamline your event budgeting.</p>
           </div>
         </div>
               <div class="col-md-4 portfolio-item">
                   <a href="#">
-                      <img class="img-responsive" src="assets/images/new-event.png" alt="">
+                      <img class="img-responsive" src="assets/images/new-event.png" alt="New add events page macbook">
                   </a>
                 <div class="portfolio-text">
                   <h3>New Add Event's Page</h3>
                   <p>Responsive, reactive and sleek. You will notice a massive difference in the new add event's page with an updated workflow and design.</p>
+                </div>
+              </div>
+              <div class="col-md-4 portfolio-item">
+                  <a href="#">
+                      <img class="img-responsive" src="assets/images/view_invoices.png" alt="Invoice tracking iMac">
+                  </a>
+                <div class="portfolio-text">
+                  <h3>Invoice Tracking</h3>
+                  <p>We know reconciling your past event expenses can be a helpful resource. Check out our latest invoice tracking feature for your piece of mind.</p>
                 </div>
               </div>
       </div><!-- END ROW -->

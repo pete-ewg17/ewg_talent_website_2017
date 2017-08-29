@@ -91,6 +91,7 @@ if(!isset($header_extra)) {
             </ul>
           <li class="hvr-underline-from-center"><a href="<?php echo $file_base; ?>selection-process.php">Selection Process</a></li>
           <li class="hvr-underline-from-center"><a href="<?php echo $file_base; ?>how-it-works.php">How It Works</a></li>
+					<li class="hvr-underline-from-center"><a href="<?php echo $file_base; ?>latest-updates.php">Latest Updates</a></li>
           <li><a href="<?php echo $file_base; ?>get-started.php"><span class="text-info">Get Started</span></a></li>
         </ul>
       </div>
