@@ -43,7 +43,7 @@ include $file_base."template/header.php";
       <div class="row">
         <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
           <h2>Brand New Client Portal</h2>
-          <p>Our latest update from Event Workforce Group, is our <strong>BRAND NEW</strong> client portal. With feature updates such as live quoting, available across all devices including mobile and tablet plus a brand new look and feel. This is one of our biggest updates yet and we couldn't be more more excited to finally release it to the world.</p>
+          <p>The latest update from Event Workforce Group is our BRAND NEW Talent client portal. With feature updates such as improved responsiveness and live quoting plus a brand new look and feel, this is one of our biggest updates yet!</p>
           <div class="header-button">
               <a href="https://ew.rosterfy.co/ewg?talent" class="btn btn-outline">Log In</a>
           </div>
