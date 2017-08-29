@@ -99,15 +99,15 @@ include $file_base."template/header.php";
       </div>
     </div>
   </div>
-  
+
   <!--AREAS WE STAFF-->
   <div class="content-section-d">
     <div class="container">
-      <div class="row"> 
+      <div class="row">
                <div class="col-md-12 text-center">
                  <h2>Areas We Staff</h2>
                  <p>Our motivated Workforcers bring to life the biggest brands and events.</p>
-               </div>  
+               </div>
               <div class="col-md-4 portfolio-item">
                   <a href="#">
                       <img class="img-responsive shadow" src="assets/images/brandactivations_700X400px.jpg" alt="Brand Activations">
@@ -115,17 +115,17 @@ include $file_base."template/header.php";
                 <div class="portfolio-text">
                   <h3>Brand Activation</h3>
                   <p>Our brand activation staff are well presented, energetic and very approachable. The perfect representation for your brand.</p>
-                </div>    
+                </div>
               </div>
               <div class="col-md-4 portfolio-item">
                   <a href="#">
                       <img class="img-responsive shadow" src="assets/images/eventpperations_700X400px.jpg" alt="Event Operations">
                   </a>
-                <div class="portfolio-text">  
+                <div class="portfolio-text">
                   <h3>Event Operations</h3>
                   <p>Our operations staff are hardworking, experienced and possess a can-do attitude. It’s their second nature to take initiative to ensure your event is a success.
 </p>
-                </div>  
+                </div>
               </div>
               <div class="col-md-4 portfolio-item">
                   <a href="#">
@@ -134,16 +134,16 @@ include $file_base."template/header.php";
                 <div class="portfolio-text">
                   <h3>Merchandise</h3>
                   <p>Our merchandise staff are well presented and have experience in retail, cash handling or customer service-based roles. They have infectious personalities and are committed to helping achieve your sales targets.</p>
-                </div>    
+                </div>
               </div>
       </div><!-- END ROW -->
     </div><!-- END CONTAINER -->
-  </div><!-- END SECTION --> 
-  
+  </div><!-- END SECTION -->
+
   <!--AREAS WE STAFF-->
    <div class="content-section-d">
     <div class="container">
-      <div class="row">   
+      <div class="row">
               <div class="col-md-4 portfolio-item">
                   <a href="#">
                       <img class="img-responsive shadow" src="assets/images/ticketing_700X400px5.jpg" alt="">
@@ -151,7 +151,7 @@ include $file_base."template/header.php";
                 <div class="portfolio-text">
                   <h3>Ticketing</h3>
                   <p>Our ticketing staff are accustomed to handling fast pace environments. They’re trusted with the likes of EventBrite, Moshtix and Access Granted.</p>
-                </div>    
+                </div>
               </div>
               <div class="col-md-4 portfolio-item">
                   <a href="#">
@@ -160,7 +160,7 @@ include $file_base."template/header.php";
                 <div class="portfolio-text">
                   <h3>Hospitality</h3>
                   <p>All hospitality staff are required to hold a current Responsible Service of Alcohol certificate. They have had previous experience providing friendly and skilled service at bars and restaurants.</p>
-                </div>    
+                </div>
               </div>
               <div class="col-md-4 portfolio-item">
                   <a href="#">
@@ -169,12 +169,12 @@ include $file_base."template/header.php";
                 <div class="portfolio-text">
                   <h3> Contract &amp; Full Time</h3>
                   <p>The core benefit of our industry designed pathway is the ability to hand pick and recommend our motivated and passionate staff for contract and full time opportunities. We know our staff back to front and can identify who would be the right fit for each organisation we work with.</p>
-                </div>    
+                </div>
               </div>
       </div><!-- END ROW -->
     </div><!-- END CONTAINER -->
-</div><!-- END CONTENT SECTION-->  
-  
+</div><!-- END CONTENT SECTION-->
+
   <!--QUOTE CAROUSEL-->
    <div class="content-section-b">
             <div class="container">
@@ -200,8 +200,8 @@ include $file_base."template/header.php";
 
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner" role="listbox">
-                           
-                           <!--FIRST ITEM--> 
+
+                           <!--FIRST ITEM-->
                            <div class="item active">
                                 <div class="row">
                                    <div class="col-md-3 quote-image-carousel" align="center">
@@ -211,10 +211,10 @@ include $file_base."template/header.php";
                                          <p class="section-heading">
                                             “We used EWG Talent for our freshman Color Run event four years ago. Whether it’s Event Operations or Merchandise Staff we need, they're always a pleasure to have on site. Their staff show a great deal of enthusiasm.”</p>
                                         <cite>Luke Hannan, General Manager at The Color Run.</cite>
-                                    </div>     
+                                    </div>
                                 </div>
                               </div>
-                            <!--SECOND ITEM-->  
+                            <!--SECOND ITEM-->
                             <div class="item">
                               <div class="row">
                                 <div class="col-md-3 quote-image-carousel" align="center">
@@ -225,7 +225,7 @@ include $file_base."template/header.php";
                                 <cite>Micheal Murphy, Senior Account Manager at The Gemba Group.</cite>
                                 </div>
                               </div>
-                            </div>      
+                            </div>
                             <!--THIRD ITEM-->
                             <div class="item">
                                    <div class="row">
@@ -235,7 +235,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“We first used EWG Talent for the 2016 Formula One GP in Melbourne, the communication between both managers and workers before, during and after the event was flawless, I have to give praise to every EWG worker I have dealt with.”</p>
                                         <cite>Gus Walker, Musketeer at Red Bull.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div>
                             <!--FOURTH ITEM-->
@@ -247,7 +247,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“What differentiates EWG Talent from other staffing agencies is their staff are always reliable and have a passion for the events industry.TLA have been working with EWG Talent for many years because the team are easy to work with and reliable.”</p>
                                         <cite>Josh Linton, Senior Account Manager at TLA Worldwide.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             <!--FIFTH ITEM-->
@@ -259,7 +259,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“We have used EWG Talent for all our event workers needs in 2016 and have found the calibre and attitude to be second to none. From key managers to large scale labour crews the guys were excellent.”</p>
                                         <cite>Lachie Stoller, Event Director at Logistics Events Australia.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             <!--SIXTH ITEM-->
@@ -271,7 +271,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“X-Tri have worked with EWG Talent for numerous years, providing staff for our National Tours including Little Big Dash and Sanitarium West-Bix Kids TRYathlon. We continue to work with EWG because of the experienced staff they provide”</p>
                                         <cite>Ashlee Munting, Event Director at X-Tri Australia.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             <!--SEVENTH ITEM-->
@@ -283,7 +283,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“Thank you to EWG Talent for contributing to the success of our events and award nights. The casual staff always have a can-do attitude, show initiative to tasks given to them and are reliable. It was the best decision to use the Event Workforce Group.”</p>
                                         <cite>Jacqui Tranter, Marketing &amp; Membership Executive at Queensland Cricket.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             <!--EIGTH ITEM-->
@@ -295,7 +295,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“We have been very impressed by the all-star staff Event Workforce Group Talent has provided for countless activations across Australia. We are so happy to have found them and will continue to utilise their services for all future activities!”</p>
                                         <cite>Erica Molina, Client Manager at Dig+Fish.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             <!--NINTH ITEM-->
@@ -307,7 +307,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“Event Workforce Group Talent have been a pleasure to work with over the past four years. The merchandise staff they provide are always very professional, energetic and show a lot of initiative.”</p>
                                         <cite>David Steinhardt, Licensing &amp; Merchandise Manager at Hawthorn Football Club.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             <!--TENTH ITEM-->
@@ -319,7 +319,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“We have used EWG Talent for a range of roles for the Good Food &amp; Wine Show across Australia. The volunteers and staff have definitely been a massive help towards the overall execution of our events, they are consistently of high standard and able to help with any tasks requested.”</p>
                                         <cite>Sheridah Puttick, Project Executive at Talk2 Media and Events.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             <!--ELEVENTH ITEM-->
@@ -331,7 +331,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“EWG Talent have played a pivotal part in our members event day experience. Their staff have been fantastic Brand Ambassadors and have fulfilled the role of our MRC mascot Clip Clop Clyde numerous times. I know we can always count of them.”</p>
                                         <cite>Lyndsay Mugavin, Events Coordinator at Melbourne Racing Club.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             <!--TWELTH ITEM-->
@@ -343,7 +343,7 @@ include $file_base."template/header.php";
                                     <div class="col-md-8">
                                         <p class="section-heading">“I couldn’t be happier working with the EWG Talent team for our Western Bulldogs activations. The Workforcers show a high level of enthusiasm and passion for the tasks given to them. It is a pleasure working with a professional company.”</p>
                                         <cite>Ben Joyce, Commercial Partnerships and Marketing Coordinator at Western Bulldogs.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             <!--THIRTEENTH ITEM-->
@@ -356,7 +356,7 @@ include $file_base."template/header.php";
                                         <p class="section-heading">
                                           “Limelight Sports are very happy with the services supplied by EWG. Their Staffing Managers are responsive, helpful and work with our teams to be able to also make budgets work. Their staffing system Rosterfy, is also proving to be a useful tool for us to be able to recruit experienced staff for various event roles.”</p>
                                         <cite>Danielle Cain, Account Manager at Limelight Sports.</cite>
-                                    </div>    
+                                    </div>
                               </div>
                             </div><!-- END ITEM -->
                             </div>
@@ -482,7 +482,7 @@ include $file_base."template/header.php";
       </div>
     </div>
   </div>
-  
+
   <!--STATS COUNTER-->
   <div class="content-section-c" data-aos="fade-down" data-aos-once="true">
     <div class="container ">
@@ -516,6 +516,6 @@ include $file_base."template/header.php";
       </div>
     </div>
   </div>
-<?php 
+<?php
 include $file_base.'template/footer.php';
 ?>
