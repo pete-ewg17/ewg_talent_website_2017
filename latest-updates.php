@@ -12,7 +12,7 @@ include $file_base."template/header.php";
         <div class="col-md-8" data-aos="fade-right" data-aos-once="true">
           <div class="intro-message text-left">
             <h1>Latest Updates</h1>
-            <p>Kepp up to date with all the latest features of Event Workforce Group</p>
+            <p>Keep up to date with all the latest features of Event Workforce Group</p>
             <div class="header-button">
               <a href="get-started.php" target="_blank" class="btn btn-outline">Get Started</a>
             </div>
@@ -74,7 +74,7 @@ include $file_base."template/header.php";
                   </a>
                 <div class="portfolio-text">
                   <h3>Complete New Look</h3>
-                  <p>A brand new look and feel.</p> 
+                  <p>A brand new look and feel. We are a firm believer of out with the old and in with the new that is exactly what we have done.</p>
                 </div>
               </div>
               <div class="col-md-4 portfolio-item">
@@ -83,7 +83,7 @@ include $file_base."template/header.php";
                   </a>
                 <div class="portfolio-text">
                   <h3>Past Events</h3>
-                  <!-- <p>Our merchandise staff are well presented and have experience in retail, cash handling or customer service-based roles. They have infectious personalities and are committed to helping achieve your sales targets.</p> -->
+                  <p>Past events has had a whole new re-haul, you can view the ins and outs of your past events and view any photos your workforcers have uploaded.</p>
                 </div>
               </div>
               <div class="col-md-4 portfolio-item">
@@ -92,7 +92,7 @@ include $file_base."template/header.php";
                   </a>
                 <div class="portfolio-text">
                   <h3>Responsive</h3>
-                  <p>Availble across all devices</p>
+                  <p>We understand that in this day and age being able to work from just a computer is limiting. So we have designed the new portal to work across the broad market of smart phones and tablets on the market.</p>
                 </div>
               </div>
 
@@ -110,7 +110,7 @@ include $file_base."template/header.php";
             </a>
           <div class="portfolio-text">
             <h3>Live Quoting</h3>
-            <p>Live on the spot quoting.</p>
+            <p>We all love instant gratification, with our brand new live quoting feature. You can see in real time how much your staff is going to cost you for your event.</p>
           </div>
         </div>
               <div class="col-md-4 portfolio-item">
@@ -118,8 +118,8 @@ include $file_base."template/header.php";
                       <img class="img-responsive" src="assets/images/new-event.png" alt="">
                   </a>
                 <div class="portfolio-text">
-                  <h3>New  Add Event's Page</h3>
-                  <p></p>
+                  <h3>New Add Event's Page</h3>
+                  <p>Responsive, reactive and sleek. You will notice a massive difference in the new add event's page with an updated workflow and design.</p>
                 </div>
               </div>
       </div><!-- END ROW -->
