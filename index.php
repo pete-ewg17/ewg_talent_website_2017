@@ -1,7 +1,7 @@
 <?php
 $file_base = "";
-$title = "Welcome";
-$desc = "EWG Talent is a staffing agency like no other - one entirely tailored to the events, sport and entertainment industry";
+$title = "Event Talent Australia - Staffing for Activations, Event Operations, Merchandise, Ticketing Melbourne, Sydney, Perth, Adelaide, ACT Australia";
+$desc = "EWG Talent is a staffing agency like no other - one entirely tailored to the events, sport and entertainment industry.";
 include $file_base."template/header.php";
 ?>
 
